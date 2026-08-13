@@ -1,0 +1,43 @@
+package com.smartglassdetector.app.model
+
+data class NearbyDevice(
+    val deviceId: String,
+    val deviceAddress: String,
+    val deviceName: String?,
+    val companyId: String?,
+    val companyName: String?,
+    val manufacturerDataHex: String?,
+    val serviceUuids: List<String>,
+    val reasonText: String,
+    val confidence: String,
+    val rawRssi: Int,
+    val smoothedRssi: Double,
+    val txPower: Int?,
+    val distanceMeters: Double,
+    val distanceMinMeters: Double,
+    val distanceMaxMeters: Double,
+    val distanceConfidence: String,
+    val sampleCount: Int,
+    val lastSeenMs: Long,
+) {
+    fun toMap(): Map<String, Any?> = mapOf(
+        "deviceId" to deviceId,
+        "deviceAddress" to deviceAddress,
+        "deviceName" to deviceName,
+        "companyId" to companyId,
+        "companyName" to companyName,
+        "manufacturerDataHex" to manufacturerDataHex,
+        "serviceUuids" to serviceUuids,
+        "reasonText" to reasonText,
+        "confidence" to confidence,
+        "rawRssi" to rawRssi,
+        "smoothedRssi" to smoothedRssi,
+        "txPower" to txPower,
+        "distanceMeters" to distanceMeters,
+        "distanceMinMeters" to distanceMinMeters,
+        "distanceMaxMeters" to distanceMaxMeters,
+        "distanceConfidence" to distanceConfidence,
+        "sampleCount" to sampleCount,
+        "lastSeenMs" to lastSeenMs,
+    )
+}

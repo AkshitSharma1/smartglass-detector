@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smartglass Detector</string>
+    <string name="widget_name">Detection controls</string>
+    <string name="widget_description">Start or stop detection and see smartglasses detected in the last five minutes.</string>
+    <string name="widget_app_name">Smartglass Detector</string>
+    <string name="widget_zero">0</string>
+    <string name="widget_count_label">detected in last 5 min</string>
+    <string name="widget_status_stopped">Detection off</string>
+    <string name="widget_status_starting">Starting detection</string>
+    <string name="widget_status_paused">Detection paused</string>
+    <string name="widget_status_scanning">Scanning nearby</string>
+    <string name="widget_status_stopping">Stopping detection</string>
+    <string name="widget_status_setup_required">Setup required</string>
+    <string name="widget_status_permission_required">Permission required</string>
+    <string name="widget_status_bluetooth_off">Bluetooth is off</string>
+    <string name="widget_status_unsupported">BLE unavailable</string>
+    <string name="widget_status_attention">Detection needs attention</string>
+    <string name="widget_detail_stopped">Ready to scan for nearby smartglasses.</string>
+    <string name="widget_detail_starting">Preparing Bluetooth and Wi-Fi detection.</string>
+    <string name="widget_detail_paused">Open the app to resume background scanning.</string>
+    <string name="widget_detail_scanning_clear">No smartglasses detected in the last 5 minutes.</string>
+    <string name="widget_detail_stopping">Closing the active scan session.</string>
+    <string name="widget_detail_setup_required">Open the app to complete first-time setup.</string>
+    <string name="widget_detail_permission_required">Open the app to allow nearby scanning.</string>
+    <string name="widget_detail_bluetooth_off">Open the app to turn on Bluetooth.</string>
+    <string name="widget_detail_unsupported">Open the app for device compatibility details.</string>
+    <string name="widget_detail_attention">Open the app to review the scanner issue.</string>
+    <string name="widget_action_start">Start</string>
+    <string name="widget_action_stop">Stop</string>
+    <string name="widget_action_open_app">Open app</string>
+    <string name="widget_action_stopping">Stopping…</string>
+    <plurals name="widget_accessibility_summary">
+        <item quantity="one">%1$d smartglass detected in the last five minutes. %2$s</item>
+        <item quantity="other">%1$d smartglasses detected in the last five minutes. %2$s</item>
+    </plurals>
+    <plurals name="widget_detected_detail">
+        <item quantity="one">%d smartglass detected in the last 5 minutes.</item>
+        <item quantity="other">%d smartglasses detected in the last 5 minutes.</item>
+    </plurals>
+</resources>

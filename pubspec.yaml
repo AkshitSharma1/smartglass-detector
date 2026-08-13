@@ -1,0 +1,23 @@
+name: smartglass_detector
+description: Nearby smartglass detection and image/video activity monitoring for Android.
+publish_to: 'none'
+version: 1.0.8+14
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
